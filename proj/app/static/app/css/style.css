@@ -1,0 +1,49 @@
+body {
+    font-family: Montserrat;
+}
+
+.name, .password, .email, .send__btn, .go_to_login{
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #dadada;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.send__btn, .go_to_login {
+    color: #000;
+    font-family: Montserrat;
+    cursor: pointer;
+}
+
+.subtitle {
+    margin: 0 20px;
+}
+.form__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(98, 98, 196);
+    border-radius: 40px;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    color: #fff;
+}
+
+.line {
+    border: 2px solid #dfdddd;
+    width: 40%;
+    border-radius: 2px;
+}
+
+.asd {
+    padding: 150px ;
+}
